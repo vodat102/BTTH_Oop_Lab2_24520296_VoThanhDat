@@ -78,7 +78,8 @@ phanSo phanSo::SoSanh(const phanSo x) const
 {
     if (this->iTu*x.iMau > x.iTu * this->iMau)
         return *this;
-    else if (this->iTu*x.iMau > x.iTu * this->iMau)
+    else if (this->iTu*x.iMau < x.iTu * this->iMau)
         return x;
+    else
     return *this;
 }
