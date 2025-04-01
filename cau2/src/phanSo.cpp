@@ -70,6 +70,11 @@ phanSo phanSo::Tich(const phanSo a) const
 phanSo phanSo::Thuong(const phanSo a) const
 {
     phanSo temp;
+    if (a.iTu == 0)
+    {
+        cout << "khong thuc hien duoc phep toan.";
+        exit(1);
+    }
     temp.iTu = this->iTu * a.iMau;
     temp.iMau = this->iMau * a.iTu;
     return temp;
