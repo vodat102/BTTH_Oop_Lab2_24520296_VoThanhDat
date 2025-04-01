@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1743486222 source:c:\oop\lab\lab2\cau2\main.cpp
+	"phanSo.h"
+	<bits/stdc++.h>
+
+1743486793 c:\oop\lab\lab2\cau2\include\phanso.h
+
+1743486656 source:c:\oop\lab\lab2\cau2\src\phanso.cpp
+	"phanSo.h"
+	<bits/stdc++.h>
+

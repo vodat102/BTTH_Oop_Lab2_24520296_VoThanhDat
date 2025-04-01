@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1743494046 source:c:\oop\lab\lab2\cau4\main.cpp
+	"gioPhutGiay.h"
+	<iostream>
+
+1743494046 c:\oop\lab\lab2\cau4\include\giophutgiay.h
+
+1743494046 source:c:\oop\lab\lab2\cau4\src\giophutgiay.cpp
+	"gioPhutGiay.h"
+	<bits/stdc++.h>
+
